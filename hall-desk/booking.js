@@ -6,12 +6,27 @@
 //     console.log("Hall A is available for booking.");
 // }
 const hallName = "Hall A";
+const hallNameB = "Hall B";
+const hallNameC = "Hall C";
 
-const isBooked = false;
+const isHallAAvailable = true;
+const isHallBAvailable = false;
+const isHallCAvailable = true;
 
-if (isBooked) {
-    console.log(`${hallName} is already booked.`);
+if (isHallAAvailable) {
+    console.log(`${hallName} is available for booking.`);
 } else {
-    console.log("Hall B is available for booking.");
+    console.log(`${hallName} is already booked.`);
 }
 
+if (isHallBAvailable) {
+    console.log(`${hallNameB} is available for booking.`);
+} else {
+    console.log(`${hallNameB} is already booked.`);
+}
+
+if (isHallCAvailable) {
+    console.log(`${hallNameC} is available for booking.`);
+} else {
+    console.log(`${hallNameC} is already booked.`);
+}
